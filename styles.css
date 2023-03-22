@@ -1,0 +1,274 @@
+*{
+    background-color: rgb(127,127,255,0.5);
+    box-sizing: border-box;
+
+    font-family: "Arial";
+}
+body{
+    height: 800px;
+    width: 95%;
+    margin: 50px auto;
+    background-color: rgb(127,127,255,0.2);
+    padding: 50px;
+}
+.info{
+    background-color: white;
+}
+.nutritions{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(177,177,255);
+    display: flex;
+    justify-content: center;
+
+}
+.nutrition-facts{
+    width: 300px;
+    height: 480px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto 5px;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.extended{
+    height: 720px;
+}
+.title-of-nf{
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.default{
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 200px;
+    justify-content: center;
+}
+.calories{
+    padding-top: 2px;
+}
+.serving{
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 5px;
+    font-weight: 200px;
+}
+.serving:last-child{
+    border-bottom: 13px solid rgb(0,0,0);
+    margin-top: 0px;
+}
+.amount{
+    background-color: white;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+
+    border-bottom: 2px solid rgb(0,0,0);
+}
+.calories{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 10px solid black;
+}
+.fat{
+    padding-right: 35px;
+    font-weight: bold;
+}
+.value{
+    margin: 0;
+    padding: 2px;
+    text-align: right;
+    border-bottom: 2px solid rgb(0,0,0);
+}
+.fcstp{
+    border-bottom: 10px solid rgb(0,0,0);
+    justify-content: space-around;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.protein{
+    border-bottom: 10px solid rgb(0,0,0);
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    display: flex;
+}
+.stds{
+    padding-left: 25px;
+    font-weight: lighter;
+}
+.stdsct{
+    border-bottom: 1px solid rgb(0,0,0);
+    background-color: white;
+    display: flex;
+}
+.details{
+    justify-content: space-around;
+}
+.pdv{
+    display: flex;
+    text-align: justify;
+}
+.pdvp{
+    font-size: 15px;
+    padding-top: 7px;
+}
+.fpt{
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 2px solid black;
+    padding-top: 2px;
+}
+.pft{
+    margin: 0;
+    font-weight: bold;
+}
+.percentage{
+    margin: 0;
+    background-color: white;
+    padding: 0px 17px 0px 0px;
+}
+.b1{
+    padding-top: 2px;
+    border-bottom: 1px solid black;
+}
+.vitamin{
+    justify-content: space-around;
+}
+.vitamins{
+    padding-right: 10px;
+}
+.vit{
+margin-right: 40px;
+    font-size: 14px;
+}
+.vit1{
+    margin-right: 50px;
+    font-size: 14px;
+
+}
+.vitamins1{
+    padding-right: 15px;
+}
+.vit2{
+    margin-right: 62px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+.vitamins2{
+    padding-right: 10px;
+}
+.extend{
+    padding: 0px;
+}
+.bld{
+    font-weight: bold;
+}
+.grams{
+    padding-right: 100px;
+}
+.grams1{
+    padding-right: 35px;
+}
+.sugar{
+    margin-left: 20px;
+}
+.protein{
+    padding-right: 185px;
+}
+.calratio{
+    border-bottom: 1px solid black;
+    display: flex;
+    margin-top: 10px;
+    justify-content: right;
+}
+.calfatval{
+    border-bottom: 1px solid black;
+}
+
+.totalfat{
+    display: flex;
+    justify-content: left;
+}
+.cals{
+    margin-right: 15px;
+}
+.cpgv{
+    display: flex;
+    justify-content: space-around;
+}
+.cpg{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.calfin{
+    padding-top: 1.5px;
+}
+.name{
+    text-align: left;
+}
+.totalfatvalues{
+   display:flex;
+    position: relative;
+    transform: translateX(50px);
+}
+.calfin{
+    margin-left: 10px;
+}
+.sf{
+    transform: translateX(17px);
+}
+.ch{
+    transform: translateX(32px);
+}
+.calfin1{
+    transform: translateX(-2px);
+    margin-left: 2px;
+}
+.calfin2{
+    z-index: 1;
+    margin-left: 2px;
+}
+.sd{
+    transform: translateX(58px);
+}
+.tcb{
+    transform: translateX(36px);
+}
+.tf{
+    transform: translateX(11px);
+}
+.calfin3{
+    margin-left: 5px;
+}
+.calfin4{
+    margin-left: 5px;
+}
+.gramval{
+    margin-left: 25px;
+}
+.mg{
+    transform: translateX(-5px);
+}
+.mgg{
+    transform: translateX(-5px);
+    width: 20px;
+}
+.g{
+    transform: translateX(4px);
+}
+.e{
+    transform: translateX(7px);
+}
+.f{
+    transform: translateX(8px);
+}
